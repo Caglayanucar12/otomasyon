@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="479.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.PersonelGelirGiderController">
+   <children>
+      <TableView fx:id="urun_table" layoutX="24.0" layoutY="21.0" prefHeight="359.0" prefWidth="552.0">
+         <columns>
+            <TableColumn fx:id="table_user" prefWidth="205.0" text="Kullanıcı Adı" />
+            <TableColumn fx:id="table_aciklama" prefWidth="205.0" text="Açıklama" />
+            <TableColumn fx:id="table_fiyat" prefWidth="102.0" text="Fiyatı" />
+         </columns>
+      </TableView>
+      <Label layoutX="164.0" layoutY="411.0" text="Harcanan Tutar">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="fiyat" layoutX="307.0" layoutY="407.0" text="0 TL" textFill="#e10e0e">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

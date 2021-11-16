@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="475.0" prefWidth="734.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.kullaniciListeleController">
+   <children>
+      <Label layoutX="19.0" layoutY="77.0" text="Aranacak Kullanıcı" />
+      <TextField fx:id="searchBox" layoutX="149.0" layoutY="72.0" />
+      <Button layoutX="94.0" layoutY="382.0" mnemonicParsing="false" onAction="#sifre_guncelle_button" prefHeight="31.0" prefWidth="248.0" text="Kullanıcının Bilgilerini Güncelle" />
+      <Label layoutX="90.0" layoutY="293.0" text="Şifre" />
+      <Button layoutX="453.0" layoutY="397.0" mnemonicParsing="false" onAction="#kullaniciyi_sil_clicked" prefHeight="31.0" prefWidth="187.0" text="Kullanıcıyı Sil" />
+      <TextField fx:id="kullanici_adi" disable="true" layoutX="154.0" layoutY="199.0" />
+      <Label layoutX="62.0" layoutY="204.0" text="Kullanıcı Adı" />
+      <TableView fx:id="kullanici_table" layoutX="408.0" layoutY="58.0" onMouseClicked="#kullanici_table_clicked" prefHeight="327.0" prefWidth="295.0">
+         <columns>
+            <TableColumn fx:id="table_kullanici_adi" prefWidth="151.0" text="Kullanıcı Adı" />
+            <TableColumn fx:id="table_maas" prefWidth="143.0" text="Maaş" />
+         </columns>
+      </TableView>
+      <PasswordField fx:id="sifre" layoutX="155.0" layoutY="288.0" />
+      <PasswordField fx:id="tekrar_sifre" layoutX="154.0" layoutY="335.0" />
+      <Label layoutX="67.0" layoutY="340.0" text="Tekrar Şifre" />
+      <Label layoutX="85.0" layoutY="250.0" text="Maaş" />
+      <TextField fx:id="maas" layoutX="154.0" layoutY="245.0" />
+   </children>
+</AnchorPane>

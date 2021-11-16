@@ -1,0 +1,9 @@
+#title {
+    -fx-text-fill: #444;
+    -fx-font-family: "Comic Sans MS bold";
+    -fx-font-size: 18px;
+}
+
+#dollar {
+    -fx-font-size: 14px;
+}

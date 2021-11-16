@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="431.0" prefWidth="380.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.IslemlerimController">
+   <children>
+      <TableView fx:id="urun_table" layoutX="34.0" layoutY="38.0" prefHeight="359.0" prefWidth="308.0">
+         <columns>
+            <TableColumn fx:id="table_aciklama" prefWidth="205.0" text="Açıklama" />
+            <TableColumn fx:id="table_fiyat" prefWidth="102.0" text="Fiyatı" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

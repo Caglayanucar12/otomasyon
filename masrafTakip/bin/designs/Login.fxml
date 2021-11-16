@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane id="background" fx:id="scenePane" prefHeight="218.0" prefWidth="433.0" stylesheets="@../../../otelOtomasyon/src/style/Style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.LoginController">
+   <children>
+      <Label id="title" layoutX="109.0" layoutY="28.0" text="Masraf Takip Otomasyonu">
+         <font>
+            <Font name="Comic Sans MS Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="username" layoutX="114.0" layoutY="67.0" prefHeight="31.0" prefWidth="219.0" promptText="Kullanıcı Adı" />
+      <PasswordField fx:id="password" layoutX="114.0" layoutY="108.0" prefHeight="31.0" prefWidth="219.0" promptText="Şifre" />
+      <Button layoutX="114.0" layoutY="147.0" mnemonicParsing="false" onAction="#login" prefHeight="25.0" prefWidth="80.0" text="Giriş Yap" />
+      <Button layoutX="253.0" layoutY="147.0" mnemonicParsing="false" onAction="#signup" prefHeight="25.0" prefWidth="80.0" text="Kayıt Ol" />
+   </children>
+</AnchorPane>

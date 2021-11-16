@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="479.0" prefWidth="848.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.KasaHareketleriKontroller">
+   <children>
+      <TableView fx:id="urun_table" layoutX="24.0" layoutY="21.0" prefHeight="359.0" prefWidth="813.0">
+         <columns>
+            <TableColumn fx:id="table_tur" prefWidth="87.0" text="Tür" />
+            <TableColumn fx:id="table_user" prefWidth="165.0" text="Kullanıcı Adı" />
+            <TableColumn fx:id="table_urun" prefWidth="204.0" text="Ürün Adı" />
+            <TableColumn fx:id="table_fiyat" prefWidth="106.0" text="Fiyatı" />
+            <TableColumn fx:id="table_adet" prefWidth="119.0" text="Adet" />
+            <TableColumn fx:id="table_total" prefWidth="131.0" text="Toplam Fiyat" />
+         </columns>
+      </TableView>
+      <Label layoutX="259.0" layoutY="411.0" text="Gelir">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="gelir" layoutX="315.0" layoutY="407.0" text="0 TL" textFill="#e10e0e">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="gider" layoutX="487.0" layoutY="407.0" text="0 TL" textFill="#e10e0e">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="431.0" layoutY="411.0" text="Gider">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

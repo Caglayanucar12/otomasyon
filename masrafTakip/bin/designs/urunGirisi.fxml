@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="238.0" prefWidth="442.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.urunGirisiController">
+   <children>
+      <Label layoutX="95.0" layoutY="50.0" text="Ürün Adı" />
+      <TextField fx:id="urunGirisi_urunAdi_textField" layoutX="161.0" layoutY="45.0" />
+      <TextField fx:id="urunGirisi_fiyat_textField" layoutX="161.0" layoutY="98.0" />
+      <Label layoutX="109.0" layoutY="103.0" text="Fiyat" />
+      <Button layoutX="175.0" layoutY="164.0" mnemonicParsing="false" onAction="#urunGirisi_urunEkle_clicked" text="Ürünü Ekle" />
+   </children>
+</AnchorPane>

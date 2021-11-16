@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="568.0" prefWidth="619.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.AdminController">
+   <children>
+      <Button fx:id="kullaniciListele_button" layoutX="135.0" layoutY="45.0" mnemonicParsing="false" onAction="#kullanicilariListele_clicked" text="Kullanıcıları Listele" />
+      <Button fx:id="urunListele_button" layoutX="292.0" layoutY="45.0" mnemonicParsing="false" onAction="#urunleriListele_clicked" text="Ürünleri Listele" />
+      <Button fx:id="personelButton" layoutX="398.0" layoutY="284.0" mnemonicParsing="false" onAction="#personel_clicked" text="Personel Gelir Gider" />
+      <Button fx:id="kasaHareketleri_button" layoutX="411.0" layoutY="222.0" mnemonicParsing="false" onAction="#kasa_hareketleri_clicked" text="Kasa Hareketleri" />
+      <Label layoutX="31.0" layoutY="7.0" text="Merhaba">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="userLabel" layoutX="117.0" layoutY="7.0" text="X" textFill="#d03434">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <TableView fx:id="user_log_table" layoutX="33.0" layoutY="121.0" prefHeight="426.0" prefWidth="318.0">
+         <columns>
+            <TableColumn fx:id="table_user" prefWidth="105.0" text="Kullanıcı" />
+            <TableColumn fx:id="table_date" prefWidth="212.0" text="Giriş Tarihi" />
+         </columns>
+      </TableView>
+      <Label layoutX="35.0" layoutY="95.0" text="Giriş Kayıtları">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="urunGirisi_button" layoutX="26.0" layoutY="45.0" mnemonicParsing="false" onAction="#urunGirisi_clicked" text="Ürün Girişi" />
+   </children>
+</AnchorPane>

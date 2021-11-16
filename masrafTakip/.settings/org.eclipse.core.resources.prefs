@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+encoding//src/application/Main.java=UTF-8
+encoding//src/controllers/AdminController.java=UTF-8
+encoding//src/controllers/HarcamaController.java=UTF-8
+encoding//src/controllers/LoginController.java=UTF-8
+encoding//src/controllers/MainPageController.java=UTF-8
+encoding//src/controllers/SignUpController.java=UTF-8
+encoding//src/controllers/kullaniciListeleController.java=UTF-8
+encoding//src/controllers/urunGirisiController.java=UTF-8
+encoding//src/controllers/urunListeleController.java=UTF-8

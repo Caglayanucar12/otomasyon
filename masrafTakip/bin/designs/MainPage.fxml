@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="534.0" prefWidth="492.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MainPageController">
+   <children>
+      <TableView fx:id="urun_table" layoutX="25.0" layoutY="51.0" prefHeight="359.0" prefWidth="202.0">
+         <columns>
+            <TableColumn fx:id="table_urun_adi" prefWidth="122.0" text="Ürün" />
+            <TableColumn fx:id="table_fiyat" prefWidth="79.0" text="Fiyatı" />
+         </columns>
+      </TableView>
+      <Label fx:id="main_user_label" layoutX="115.0" layoutY="8.0" text="X" textFill="#d03434">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="29.0" layoutY="8.0" text="Merhaba">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Button layoutX="77.0" layoutY="487.0" mnemonicParsing="false" onAction="#al_clicked" prefHeight="31.0" prefWidth="65.0" text="Al" />
+      <Label layoutX="34.0" layoutY="434.0" text="Adet" />
+      <TextField fx:id="adet_textField" alignment="CENTER" layoutX="76.0" layoutY="429.0" prefHeight="31.0" prefWidth="146.0" text="1" />
+      <Button layoutX="303.0" layoutY="200.0" mnemonicParsing="false" onAction="#harcama_clicked" prefHeight="31.0" prefWidth="160.0" text="Harcama Yap" />
+      <Button layoutX="303.0" layoutY="274.0" mnemonicParsing="false" onAction="#islemlerim_clicked" prefHeight="31.0" prefWidth="160.0" text="İşlemlerim" />
+      <Button layoutX="157.0" layoutY="487.0" mnemonicParsing="false" onAction="#sat_clicked" prefHeight="31.0" prefWidth="65.0" text="Sat" />
+   </children>
+</AnchorPane>
